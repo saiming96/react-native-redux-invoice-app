@@ -1,0 +1,16 @@
+export default {
+  backgroundColor: '#F2F2F2',
+  white: '#FFFFFF',
+  black: '#0C0E16',
+  lightBlack: '#373B53',
+  darkPurple: '#7C5DFA',
+  lightPurple: '#9277FF',
+  gray: '#888EB0',
+  lightGray: '#F9FAFE',
+  darkGray: '#7E88C3',
+  inputBorder: '#DFE3FA',
+  lightPurpleGray: '#494E6E',
+  red: '#EC5757',
+  shadow: '#000',
+  modalOpacity: 'rgba(0, 0, 0, 0.2)',
+};
