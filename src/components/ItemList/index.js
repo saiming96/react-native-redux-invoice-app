@@ -9,7 +9,7 @@ const Index = props => {
   const new_item = {
     name: '',
     quantity: '',
-    price: '',
+    price: '0',
     total: '',
   }
 
@@ -91,53 +91,6 @@ const Index = props => {
       </View>
     </View>
   );
-
-  // const item_list = items.map((item, key) =>
-  //   <View>
-  //     <Text style={ styles.textItemListTitle }>Item List</Text>
-
-  //     <Text style={ styles.label }>Item Name</Text>
-  //     <TextInput 
-  //       autoCorrect={false}
-  //       style={ styles.textInput }
-  //       value={ item.name }
-  //     />
-
-  //     <View style={ styles.rowContainer }>
-  //       <View style={{ ...styles.halfContainer, ...styles.row }}>
-  //         <View style={ styles.qtyContainer }>
-  //           <Text style={ styles.label }>Qty.</Text>
-  //           <TextInput 
-  //             autoCorrect={false} 
-  //             style={ styles.textInput }
-  //             value={ item.quantity }
-  //           />
-  //         </View>
-  //         <View style={ styles.priceContainer }>
-  //           <Text style={ styles.label }>Price</Text>
-  //           <TextInput 
-  //             autoCorrect={false} 
-  //             style={ styles.textInput }
-  //             value={ item.price }
-  //           />
-  //         </View>
-  //       </View>
-  //       <View style={{ ...styles.halfContainer, ...styles.row }}>
-  //         <View style={ styles.totalContainer }>
-  //           <Text style={ styles.label }>Total</Text>
-  //           <TextInput 
-  //             autoCorrect={false} 
-  //             style={ styles.textInputNoBorder }
-  //             value={ item.total }
-  //           />
-  //         </View>
-  //         <View style={ styles.deleteButtonContainer }>
-  //           <IconDelete />
-  //         </View>
-  //       </View>
-  //     </View>
-  //   </View>
-  // );
 
   return (
     <View>

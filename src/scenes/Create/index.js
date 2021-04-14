@@ -57,7 +57,7 @@ const Index = props => {
       {
         name: '',
         quantity: '',
-        price: '',
+        price: '0',
         total: '',
       }
     ]
