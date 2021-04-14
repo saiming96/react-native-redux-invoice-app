@@ -1,6 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 import Colors from '../../constant/colors.js';
+import Fonts from '../../constant/fonts';
 
 export default StyleSheet.create({
   screen: { 
@@ -20,12 +21,12 @@ export default StyleSheet.create({
   },
   headerLeftTitle: {
     fontSize: 20,
-    fontWeight:'700',
+    fontFamily: Fonts.bold,
     color: '#0C0E16',
   },
   headerLeftDescription: {
     fontSize: 12,
-    fontWeight:'500',
+    fontFamily: Fonts.medium,
     color: '#888EB0',
   },
   headerRightContainer: {
@@ -65,7 +66,7 @@ export default StyleSheet.create({
   },
   headerRightButtonText: {
     fontSize: 12,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
     color: Colors.white,
   },
 });

@@ -1,5 +1,6 @@
 import { StyleSheet } from 'react-native';
 import Colors from '../../constant/colors.js';
+import Fonts from '../../constant/fonts';
 
 export default StyleSheet.create({
   modalView: {
@@ -34,7 +35,7 @@ export default StyleSheet.create({
   },
   textTitle: {
     fontSize: 20,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
     paddingHorizontal: 32,
     paddingTop: 32,
     lineHeight: 32,
@@ -42,7 +43,7 @@ export default StyleSheet.create({
   },
   textContent: {
     fontSize: 12,
-    fontWeight: '500',
+    fontFamily: Fonts.medium,
     color: Colors.gray,
     paddingHorizontal: 32,
     paddingTop: 8,
@@ -60,7 +61,7 @@ export default StyleSheet.create({
   textCancel: {
     color: Colors.darkGray,
     fontSize: 12,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
   },
   buttonCancel: {
     backgroundColor: Colors.lightGray,
@@ -73,7 +74,7 @@ export default StyleSheet.create({
   textDelete: {
     color: Colors.white,
     fontSize: 12,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
   },
   buttonDelete: {
     backgroundColor: Colors.red,

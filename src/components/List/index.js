@@ -29,11 +29,7 @@ const Index = props => {
             Due {moment.getShortDate(props.itemData.paymentDue)}
           </Text>
 
-          <Text style={{
-            fontSize: 16,
-            fontWeight: '700',
-            color: '#0C0E16',
-          }}>
+          <Text style={ styles.totalText }>
             £ {props.itemData.total.toFixed(2)}
           </Text>
         </View>

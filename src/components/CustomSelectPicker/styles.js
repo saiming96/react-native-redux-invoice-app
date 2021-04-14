@@ -1,5 +1,6 @@
 import { StyleSheet } from 'react-native';
 import Colors from '../../constant/colors.js';
+import Fonts from '../../constant/fonts';
 
 export default StyleSheet.create({
   selectContainer: {
@@ -11,12 +12,13 @@ export default StyleSheet.create({
     borderRadius: 4,
     paddingHorizontal: 20,
     fontSize: 12,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
     justifyContent: 'center',
     backgroundColor: Colors.white,
   },
-  dateInput: {fontSize: 12,
-    fontWeight: '700',
+  dateInput: {
+    fontSize: 12,
+    fontFamily: Fonts.bold,
   },
   listTouchable: {
     height: 47,
@@ -28,7 +30,7 @@ export default StyleSheet.create({
   },
   listText: {
     fontSize: 12,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
   },
   modalView: {
     flex:1,

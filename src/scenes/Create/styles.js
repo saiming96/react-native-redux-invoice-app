@@ -1,5 +1,6 @@
 import { StyleSheet } from 'react-native';
 import Colors from '../../constant/colors.js';
+import Fonts from '../../constant/fonts';
 
 export default StyleSheet.create({
   screen: { 
@@ -13,7 +14,7 @@ export default StyleSheet.create({
   titleText: {
     marginTop: 24,
     fontSize: 24,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
   },
   scrollView: {
     flex: 1,
@@ -22,13 +23,13 @@ export default StyleSheet.create({
   billFromText: {
     marginTop: 24,
     fontSize: 12,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
     color: Colors.darkPurple,
   },
   label: {
     marginTop: 24,
     fontSize: 12,
-    fontWeight: '500',
+    fontFamily: Fonts.medium,
     color: Colors.darkGray,
   },
   textInput: {
@@ -40,7 +41,7 @@ export default StyleSheet.create({
     borderRadius: 4,
     paddingHorizontal: 20,
     fontSize: 12,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
     justifyContent: 'center',
     backgroundColor: Colors.white,
   },
@@ -50,7 +51,7 @@ export default StyleSheet.create({
     height: 48,
     paddingHorizontal: 20,
     fontSize: 12,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
     justifyContent: 'center',
   },
   rowContainer: {
@@ -83,7 +84,7 @@ export default StyleSheet.create({
   textSaveSend: {
     color: Colors.white,
       fontSize: 12,
-      fontWeight: '700',
+      fontFamily: Fonts.bold,
   },
   buttonSaveDraft: {
     backgroundColor: Colors.lightBlack,
@@ -96,7 +97,7 @@ export default StyleSheet.create({
   textSaveDraft: {
     color: Colors.gray,
     fontSize: 12,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
   },
   buttonDiscard: {
     backgroundColor: Colors.lightGray,
@@ -109,13 +110,13 @@ export default StyleSheet.create({
   textDiscard: {
     color: Colors.darkGray,
     fontSize: 12,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
   },
   textItemListTitle: {
     marginTop: 66,
     color: '#777F98',
     fontSize: 18,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
   },
   row: {
     flexDirection: 'row',
@@ -132,6 +133,6 @@ export default StyleSheet.create({
   textAddNewItem: {
     color: Colors.darkGray,
     fontSize: 12,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
   },
 });

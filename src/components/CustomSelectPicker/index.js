@@ -16,7 +16,8 @@ const Index = (props) => {
   }
 
   const payment_terms_list = payment_terms.map((term) =>
-    <TouchableOpacity 
+    <TouchableOpacity
+      key={term}
       style={ styles.listTouchable }
       onPress={()=>selected_term(term)}
     >

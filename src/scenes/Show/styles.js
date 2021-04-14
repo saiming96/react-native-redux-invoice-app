@@ -1,5 +1,6 @@
 import { StyleSheet } from 'react-native';
 import Colors from '../../constant/colors.js';
+import Fonts from '../../constant/fonts';
 
 export default StyleSheet.create({
   screen: { 
@@ -33,7 +34,7 @@ export default StyleSheet.create({
   },
   statusText: {
     fontSize: 12,
-    fontWeight: '500',
+    fontFamily: Fonts.medium,
     color: Colors.gray,
   },
   statusBarContainer: {
@@ -59,7 +60,7 @@ export default StyleSheet.create({
   },
   textId: {
     fontSize: 12,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
     color: Colors.black,
   },
   textHashtag: {
@@ -77,7 +78,7 @@ export default StyleSheet.create({
   textEdit: {
     color: Colors.darkGray,
     fontSize: 12,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
   },
   buttonDelete: {
     backgroundColor: Colors.red,
@@ -90,7 +91,7 @@ export default StyleSheet.create({
   textDelete: {
     color: Colors.white,
     fontSize: 12,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
   },
   buttonMarkPaid: {
     backgroundColor: Colors.darkPurple,
@@ -103,32 +104,32 @@ export default StyleSheet.create({
   textMarkPaid: {
     color: Colors.white,
       fontSize: 12,
-      fontWeight: '700',
+      fontFamily: Fonts.bold,
   },
   greyText: {
     fontSize: 11,
-    fontWeight: '500',
+    fontFamily: Fonts.medium,
     color: Colors.darkGray,
   },
   whiteText: {
     fontSize: 11,
-    fontWeight: '500',
+    fontFamily: Fonts.medium,
     color: Colors.white,
   },
   blackBoldText: {
     fontSize: 15,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
     color: Colors.black,
   },
   blackBoldTextsm: {
     fontSize: 12,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
     color: Colors.black,
     marginTop: 12,
   },
   whiteBoldText: {
     fontSize: 15,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
     color: Colors.white,
   },
   halfWidth:{ 

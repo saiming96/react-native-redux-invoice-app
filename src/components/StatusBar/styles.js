@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import Fonts from '../../constant/fonts';
 
 export default StyleSheet.create({
   statusContainer: {
@@ -17,7 +18,7 @@ export default StyleSheet.create({
   },
   statusText: {
     fontSize:12,
-    fontWeight:'700',
+    fontFamily: Fonts.bold,
     textTransform: 'capitalize',
     paddingHorizontal: 4,
   },

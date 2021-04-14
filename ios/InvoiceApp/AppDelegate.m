@@ -47,6 +47,18 @@ static void InitializeFlipper(UIApplication *application) {
   rootViewController.view = rootView;
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
+  
+  NSArray *families = [[UIFont familyNames] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+  NSMutableString *fonts = [NSMutableString string];
+  for (int i = 0; i < [families count]; i++) {
+      [fonts appendString:[NSString stringWithFormat:@"\n%@:\n", families[i]]];
+      NSArray *names = [UIFont fontNamesForFamilyName:families[i]];
+      for (int j = 0; j < [names count]; j++) {
+          [fonts appendString:[NSString stringWithFormat:@"\t%@\n", names[j]]];
+      }
+  }
+  NSLog(@"saiming%@", fonts);
+  
   return YES;
 }
 

@@ -1,11 +1,12 @@
 import { StyleSheet } from 'react-native';
 import Colors from '../../constant/colors.js';
+import Fonts from '../../constant/fonts';
 
 export default StyleSheet.create({
   label: {
     marginTop: 24,
     fontSize: 12,
-    fontWeight: '500',
+    fontFamily: Fonts.medium,
     color: Colors.darkGray,
   },
   textInput: {
@@ -17,9 +18,9 @@ export default StyleSheet.create({
     borderRadius: 4,
     paddingHorizontal: 20,
     fontSize: 12,
-    fontWeight: '700',
     justifyContent: 'center',
     backgroundColor: Colors.white,
+    fontFamily: 'Spartan-Bold',
   },
   textInputNoBorder: {
     marginTop: 10,
@@ -27,7 +28,7 @@ export default StyleSheet.create({
     height: 48,
     paddingHorizontal: 20,
     fontSize: 12,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
     justifyContent: 'center',
   },
   rowContainer: {
@@ -66,7 +67,7 @@ export default StyleSheet.create({
     marginTop: 66,
     color: '#777F98',
     fontSize: 18,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
   },
   row: {
     flexDirection: 'row',
@@ -83,6 +84,6 @@ export default StyleSheet.create({
   textAddNewItem: {
     color: Colors.darkGray,
     fontSize: 12,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
   },
 });

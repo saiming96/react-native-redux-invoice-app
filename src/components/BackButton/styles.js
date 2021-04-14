@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import Fonts from '../../constant/fonts';
 
 export default StyleSheet.create({
   viewContainer: {
@@ -19,7 +20,7 @@ export default StyleSheet.create({
   },
   textStyle: {
     fontSize: 15,
-    fontWeight: '700',
+    fontFamily: Fonts.bold,
     color: '#0C0E16',
   },
 });

@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import Fonts from '../../constant/fonts';
 
 export default StyleSheet.create({
     screen: {
@@ -13,21 +14,21 @@ export default StyleSheet.create({
       alignItems: 'center',
     },
     textTitle: {
-      fontSize:20,
-      fontWeight: '700',
+      fontSize: 20,
+      fontFamily: Fonts.bold, 
       marginBottom: 24,
     },
     textContentLineOne: {
       fontSize:12,
-      fontWeight: '500',
+      fontFamily: Fonts.medium,
       color:'#888EB0',
     },
     textContentLineTwo: {
       fontSize:12,
-      fontWeight: '500',
+      fontFamily: Fonts.medium,
       color:'#888EB0',
     },
     textBold: {
-      fontWeight:'800'
+      fontFamily: Fonts.bold, 
     },
 });

@@ -38,7 +38,7 @@ const Index = props => {
   }
 
   const item_list = items.map((item, key) =>
-    <View>
+    <View key={key}>
       <Text style={ styles.label }>Item Name</Text>
       <TextInput 
         autoCorrect={false}
