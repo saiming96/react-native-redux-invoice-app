@@ -20,11 +20,11 @@ npm install
 Run the application using `react-native run-android` for android or `react-native run-ios`for ios
 
 ## Dependencies
-* [NativeBase](https://github.com/GeekyAnts/NativeBase) for cross-platform UI elements.
+* [ReactNavigation](https://github.com/react-navigation/react-navigation) for navigation between screnes.
 * [Redux](https://github.com/reduxjs/redux) as a state container.
-* [Redux-thunk](https://github.com/reduxjs/redux-thunk) as middleware for Redux.
-* [Redux-Form](https://github.com/redux-form/redux-form) to keep form state in store.
-* [react-native-router-flux](https://github.com/aksonov/react-native-router-flux) for routing between screens.
+* [react-native-datetimepicker](https://github.com/react-native-datetimepicker/datetimepicker) to select date and time.
+* [react-native-svg](https://github.com/react-native-svg/react-native-svg) to provide svg support for react native.
+* [Moment.js](https://momentjs.com/) for date time formating.
 
 
 ## Structure
