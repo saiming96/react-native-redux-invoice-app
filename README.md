@@ -17,7 +17,7 @@ npm install
 ```
 
 ### 2. Run the application
-Run the application using `react-native run-android` for android or `react-native run-ios`for ios
+Run the application using `react-native run-android` for android or `react-native run-ios` for ios
 
 ## Dependencies
 * [ReactNavigation](https://github.com/react-navigation/react-navigation) for navigation between screnes.
